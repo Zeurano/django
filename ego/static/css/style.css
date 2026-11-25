@@ -1,0 +1,19 @@
+/* Делаем фон всего сайта светло-серым, а шрифт — Arial */
+body {
+    background-color: #f0f0f0; /* Цвет фона */
+    font-family: Arial, sans-serif; /* Шрифт текста */
+}
+
+/* Делаем все заголовки h1 красными и по центру */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* Делаем красивую кнопку */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px; /* Скругленные углы */
+}

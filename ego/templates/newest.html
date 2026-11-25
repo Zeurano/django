@@ -1,0 +1,11 @@
+<ul>
+    {% for task in tasks %}
+        <li>{{task.title}}</li>
+    {% empty %}
+        <li>Нет задач</li>
+    {%endfor%}
+</ul>
+
+<p>{{task|capitalize}}</p>
+
+<p>date:{% now "Y-m-d H:i %}</p>
